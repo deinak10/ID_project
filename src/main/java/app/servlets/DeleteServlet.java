@@ -21,7 +21,7 @@ public class DeleteServlet extends HttpServlet {
     @Override
     protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         int id = Integer.parseInt(req.getParameter("id"));
-        model.deleteUser(model.findUser(id));
+       // model.deleteUser(model.findUser(id));
         resp.sendRedirect("/users");
     }
 }
