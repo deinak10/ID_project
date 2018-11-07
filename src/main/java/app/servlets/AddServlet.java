@@ -1,4 +1,4 @@
-package app.servlets;
+/*package app.servlets;
 
 import app.entities.User;
 import app.model.model;
@@ -33,3 +33,4 @@ public class AddServlet  extends HttpServlet {
 
     }
 }
+*/

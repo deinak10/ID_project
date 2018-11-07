@@ -1,4 +1,4 @@
-package app.servlets;
+/*package app.servlets;
 
 
 
@@ -24,3 +24,4 @@ public class ListServlet extends HttpServlet {
         requestDispatcher.forward(req, resp);
     }
 }
+*/

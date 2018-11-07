@@ -1,4 +1,4 @@
-package app.servlets;
+/*package app.servlets;
 
 import app.model.model;
 
@@ -25,3 +25,4 @@ public class DeleteServlet extends HttpServlet {
         resp.sendRedirect("/users");
     }
 }
+*/
