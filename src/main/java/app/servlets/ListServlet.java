@@ -1,9 +1,4 @@
-/*package app.servlets;
-
-
-
-
-import app.model.model;
+package app.servlets;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -14,7 +9,7 @@ import java.io.IOException;
 import java.util.List;
 
 public class ListServlet extends HttpServlet {
-    @Override
+    /*@Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         model model = app.model.model.getInstance();
         List<String> names = model.list();
@@ -22,6 +17,6 @@ public class ListServlet extends HttpServlet {
 
         RequestDispatcher requestDispatcher = req.getRequestDispatcher("jsp/list.jsp");
         requestDispatcher.forward(req, resp);
-    }
+    }*/
 }
-*/
+

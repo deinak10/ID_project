@@ -1,7 +1,6 @@
-/*package app.servlets;
+package app.servlets;
 
-import app.entities.User;
-import app.model.model;
+import app.entities.*;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -11,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class AddServlet  extends HttpServlet {
-    @Override
+    /*@Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         RequestDispatcher requestDispatcher = req.getRequestDispatcher("jsp/add.jsp");
         requestDispatcher.forward(req, resp);
@@ -31,6 +30,5 @@ public class AddServlet  extends HttpServlet {
         req.setAttribute("userPass", name);
         doGet(req, resp);
 
-    }
+    }*/
 }
-*/

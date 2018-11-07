@@ -7,10 +7,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-public class DeleteServlet extends HttpServlet {
+public class UpdateServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        RequestDispatcher requestDispatcher = req.getRequestDispatcher("views/delete.jsp");
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher("views/update.jsp");
         requestDispatcher.forward(req, resp);
     }
 }

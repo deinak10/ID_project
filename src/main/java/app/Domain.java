@@ -1,11 +1,26 @@
 package app;
 
-import app.logics.Util;
+import app.entities.Club;
+import app.services.ClubService;
+
+import java.sql.SQLException;
+import java.util.List;
 
 public class Domain {
     public static void main(String[] args) {
-        Util util = new Util();
-        util.getConnection();
+        ClubService clubService = new ClubService();
+
+        Club club = new  Club();
+
+        try{
+            List<Club> clubList = clubService.getALL();
+            for (Club a : clubList){
+                System.out.println(a);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
     }
 }
 
